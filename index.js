@@ -1,4 +1,14 @@
-const user_name = 'fynn emmauel';
-let fname = 'flynn';
-console.log(user_name);
+const ourStorage = {
+    "desk": {
+      "drawer": "stapler"
+    },
+    "cabinet": {
+      "top drawer": { 
+        "folder1": "a file",
+        "folder2": "secrets"
+      },
+      "bottom drawer": "soda"
+    }
+  };
 
+  console.log(ourStorage.cabinet['bottom drawer']);
